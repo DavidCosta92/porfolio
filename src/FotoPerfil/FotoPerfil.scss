@@ -1,0 +1,17 @@
+.fotoContainer{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: -50px;
+    margin-left: 4px;
+    z-index: 10;
+    position: absolute;
+    background-color: #01193aeb;
+    img{
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: black 5px solid;
+    }
+}

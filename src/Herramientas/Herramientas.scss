@@ -1,0 +1,23 @@
+.herramientas{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    p{
+        color: rgba(2, 79, 208, 0.7411764706); 
+        font-size: 1.5rem; 
+        font-weight: 500;
+    }
+    .toolsContainer{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        img{
+            width: 50px;
+            color: white;
+            margin: 15px;
+        }
+    }
+
+
+}

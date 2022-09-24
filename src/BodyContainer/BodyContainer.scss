@@ -1,0 +1,25 @@
+.bodyContainer{
+    background-color: rgb(5, 5, 5);
+    border-top-right-radius: 30px;
+    margin: -40px 10px 0 0;
+    height: auto;
+    .dinamicText div{
+        height: 100px;
+        margin-right: 25px;
+        padding-top: 35px;
+        z-index: 10;
+        color: #024fd0bd;
+        font-weight: 700;
+    }
+    .introduccion{
+        color:white;
+        text-align: center;
+        font-size: 1.2rem;
+        p{
+            margin-top: 40px;
+            padding:15px;
+
+        }
+    }
+
+}
