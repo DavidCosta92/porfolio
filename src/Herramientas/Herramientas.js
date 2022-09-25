@@ -9,14 +9,19 @@ const Herramientas = ()=>{
                 <img src="./assets/icons/css.png" alt="Logo css"/>
                 <img src="./assets/icons/js.png" alt="Logo js"/>
                 <img src="./assets/icons/git.png" alt="Logo git"/>
-                <img src="./assets/icons/gtihubWhite.png" alt="Logo github"/>
                 <img src="./assets/icons/github.png" alt="Logo github"/>
                 <img src="./assets/icons/firebase.png" alt="Logo firebase"/>
                 <img src="./assets/icons/react.png" alt="Logo react"/>
                 <img src="./assets/icons/bootstrap.png" alt="Logo bootstrap"/>
-                <p> Falta poner sql, worpress, java, pyhton,  </p>
-                <p>COmo herramienta transversal ingles, cursos de emprendedurismo, exts</p>
             </span>
+            <p>Aprendiendo..</p>
+            <span className="toolsContainer">
+                <img src="./assets/icons/python.png" alt="Logo python"/>
+                <img src="./assets/icons/sql.png" alt="Logo sql"/>
+                <img src="./assets/icons/worpress.png" alt="Logo worpress"/>
+            </span>
+
+            <p>Otros conocimientos transversal ingles, cursos de emprendedurismo, exts</p>
         </div>
     )
 }

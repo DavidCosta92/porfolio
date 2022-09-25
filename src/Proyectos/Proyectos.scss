@@ -1,0 +1,95 @@
+.proyectos{
+    color: rgba(2, 79, 208, 0.7411764706); 
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    p{
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    span{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        .cardProyect{
+            margin: 15px;
+            .botoneraProyecto{
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+                margin-top: 5px;
+                
+                button{
+                    width: 80px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    background-color:rgba(2, 79, 208, 0.7411764706); 
+                    color: white;
+                    font-weight: 100;
+                    font-size: 1rem;
+                    border-radius: 10px;
+                    border: none;
+                    border: 1px rgba(2, 79, 208, 0.9) solid;
+                    &:hover{
+                        background-color:rgba(255, 255, 255, 0.8);
+                        color: black;
+                        font-weight: 500;
+                        transform: scale(1.08);
+                        cursor: pointer;
+                    }
+                }
+            }
+            
+        }
+
+    }
+}
+
+/*  
+        .cardProyecto{            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgba(255, 251, 251, 0.051);
+            width: fit-content;
+            padding: 5px 10px;
+            border-radius: 10px;
+            margin: 5px 15px 10px 15px;
+            p{
+                font-size: 1.3rem;
+                margin-bottom: 8px;
+            }
+            img{
+                border-radius: 10px;
+                width: 250px;
+                &:hover{
+                    transform: scale(1.02);
+                }
+            }
+            .botoneraProyecto{
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+                margin-top: 5px;
+                button{
+                    width: 80px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    background-color:rgba(2, 79, 208, 0.2); 
+                    color:white;
+                    font-weight: 100;
+                    font-size: 1rem;
+                    border-radius: 10px;
+                    border: none;
+                    &:hover{
+                        background-color:rgba(2, 79, 208, 0.7411764706);
+                        transform: scale(1.08);
+                        cursor: pointer;
+                    }
+                }
+            }
+
+        }
+        
+        */
