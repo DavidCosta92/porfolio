@@ -19,8 +19,8 @@ const BodyContainer = ()=>{
                 <TypingText text={sequence} aling="right" fontSize={2.4}/>
             </span>
             <span className="introduccion">
-                <p>Recientemente elegi el camino del programador, como una forma de vida en donde tengo mucho que aprender,
-                     pero asi tambien para enseñar.. Actualmente estudiando mientras busco proyectos y un equipo desafiante!</p>
+                <p>Recientemente elegi para mi vida, el camino del programador, inicie por el Frontend y actualmente 
+                    oriendandome al Back como complemento, mientras busco proyectos y un equipo desafiante para que crezcamos juntos!</p>
             </span>
             <Herramientas/>
             <Proyectos/>
