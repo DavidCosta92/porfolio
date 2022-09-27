@@ -1,13 +1,6 @@
 import "./Navbar.scss"
 import NavStiky from '../NavStiky/NavStiky';
 import TypingText from "../TypingText/TypingText";
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import MailIcon from '@mui/icons-material/Mail';
-import ContactPageIcon from '@mui/icons-material/ContactPage';
-
-import LightModeIcon from '@mui/icons-material/LightMode';
-import NightlightIcon from '@mui/icons-material/Nightlight';
 
 const Navbar = ()=>{
     let sequence = [
@@ -18,11 +11,9 @@ const Navbar = ()=>{
     return (
         <>
             <NavStiky/>
-        
         <div className="navbarContainer">  
-
             <span className="dinamicText">
-                <TypingText  text={sequence} aling="left" fontSize={1.5}/>
+                <TypingText  text={sequence} aling="left" fontSize={2.5}/>
             </span>
         </div>
         </>

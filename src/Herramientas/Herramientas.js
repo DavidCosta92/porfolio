@@ -3,7 +3,7 @@ import "./Herramientas.scss"
 const Herramientas = ()=>{
     return (
         <div className="herramientas">
-            <p> HERRAMIENTAS </p>
+            <p className="titulo"> HERRAMIENTAS </p>
             <span className="toolsContainer">
                 <img src="./assets/icons/html.png" alt="Logo html"/>
                 <img src="./assets/icons/css.png" alt="Logo css"/>
@@ -14,11 +14,13 @@ const Herramientas = ()=>{
                 <img src="./assets/icons/react.png" alt="Logo react"/>
                 <img src="./assets/icons/bootstrap.png" alt="Logo bootstrap"/>
             </span>
-            <p>Aprendiendo..</p>
-            <span className="toolsContainer">
-                <img src="./assets/icons/python.png" alt="Logo python"/>
-                <img src="./assets/icons/sql.png" alt="Logo sql"/>
-                <img src="./assets/icons/worpress.png" alt="Logo worpress"/>
+            <span className="contenedorAprendiendo">
+                <p className="subtitulo">Fortaleciendo..</p>
+                <span className="toolsContainer">
+                    <img src="./assets/icons/python.png" alt="Logo python"/>
+                    <img src="./assets/icons/sql.png" alt="Logo sql"/>
+                    <img src="./assets/icons/worpress.png" alt="Logo worpress"/>
+                </span>
             </span>
 
             <p>Otros conocimientos transversal ingles, cursos de emprendedurismo, exts</p>

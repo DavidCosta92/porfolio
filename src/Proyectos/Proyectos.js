@@ -1,9 +1,6 @@
 import "./Proyectos.scss"
 
 const Proyectos= () =>{
-    function handleClick(){
-        console.log("hice click")
-    }
     return (
         <div className="proyectos">
             <p>Proyectos</p>
