@@ -1,7 +1,7 @@
 .herramientas{
     color: rgba(2, 79, 208, 0.7411764706); 
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40vh;
     .titulo{
         font-size: 1.5rem; 
         font-weight: 500;
@@ -10,7 +10,7 @@
     }
     .subtitulo{
         margin-top: 30px;
-        margin-bottom: 15px;    
+        margin-bottom: 5px;    
         font-size: 1.4rem; 
         font-weight: 500;
     }
@@ -18,17 +18,23 @@
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        
         img{
             width: 50px;
             color: white;
             margin: 15px;
+            filter: drop-shadow(0 0 5px rgba(0, 94, 255, 0.8));
+            &:hover{
+                transform: scale(1.1);
+            }
         }
     }
     .contenedorAprendiendo{
-        border: 1px solid rgba(2, 79, 208, 0.7411764706); 
-        border-top: none;
-        color: white;
+        .toolsContainer{
+            border: 2px inset rgba(2, 79, 208, 0.7411764706);
+            border-radius: 10px;
+            width: 70%;
+            margin: auto;
+        }
     }
 
 

@@ -15,15 +15,13 @@ const Herramientas = ()=>{
                 <img src="./assets/icons/bootstrap.png" alt="Logo bootstrap"/>
             </span>
             <span className="contenedorAprendiendo">
-                <p className="subtitulo">Fortaleciendo..</p>
+                <p className="subtitulo">Aprendiendo</p>
                 <span className="toolsContainer">
                     <img src="./assets/icons/python.png" alt="Logo python"/>
                     <img src="./assets/icons/sql.png" alt="Logo sql"/>
                     <img src="./assets/icons/worpress.png" alt="Logo worpress"/>
                 </span>
             </span>
-
-            <p>Otros conocimientos transversal ingles, cursos de emprendedurismo, exts</p>
         </div>
     )
 }
