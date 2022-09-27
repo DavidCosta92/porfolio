@@ -3,6 +3,7 @@ import FotoPerfil from "../FotoPerfil/FotoPerfil";
 import TypingText from "../TypingText/TypingText";
 import Herramientas from "../Herramientas/Herramientas";
 import Proyectos from "../Proyectos/Proyectos";
+import Contacto from "../Contacto/Contacto";
 
 
 const BodyContainer = ()=>{
@@ -23,6 +24,7 @@ const BodyContainer = ()=>{
             </span>
             <Herramientas/>
             <Proyectos/>
+            <Contacto/>
         </div>
     )
 }

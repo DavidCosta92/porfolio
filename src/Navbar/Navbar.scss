@@ -8,21 +8,7 @@
                     */
                     
     color: white;
-    .navbarBtnContainer{
-        display: flex;
-        justify-content: space-around;
-        .btnTheme{
-            margin: 10px;
-        }
-        .redes{
-            display: flex;
-            justify-content: flex-end;
-            width: 60vw;
-            svg{
-                margin: 10px;
-            }
-        }
-    }
+
     .dinamicText div{
         margin-top: 20px;
         margin-left: 15px;

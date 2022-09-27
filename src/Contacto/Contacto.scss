@@ -1,0 +1,69 @@
+:root {
+    --toastify-color-success: rgb(3, 63, 166) !important;
+    /* Modificacion color de tosty   */
+}
+.contacto{
+    color: white;
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 50px;
+        .labelFormContacto{
+            width: 80%;
+            max-width: 450px;
+            display: flex;
+            flex-direction: column;
+            height: 60px;
+            label{
+                font-size: 0.8rem;
+                margin-bottom: 2px;
+                color:rgba(2, 79, 208, 0.7411764706); 
+            }
+            input{
+                background-color: rgba(1, 5, 11, 0.741);
+                color: white;
+                border-color: rgba(44, 72, 120, 0.362); 
+                border-top: 0;
+                border-left: 0;
+                border-right: 0;
+                font-size: 1rem;
+                &:focus{
+                    border-color: rgba(36, 97, 204, 0.362); 
+                }
+            }
+            .errorForm{
+                color: red;
+                font-size: 0.7rem;
+            }
+            textarea{
+                background-color: rgba(1, 5, 11, 0.741);
+                color: white;
+                border-radius: 4px;
+                min-height: 70px;
+            }
+            
+        }
+        .textArea{
+            height: 130px;
+            font-size: 0.9rem;
+        }
+
+        .botonEnvio{
+            width: 80%;
+            max-width: 450px;
+            background-color: rgba(2, 79, 208, 0.4); 
+            border-radius: 20px;
+            border: none;
+            padding: 2px;
+            margin-top: 5px;
+            color: white;
+            &:hover{
+                color: white;
+                background-color: rgba(2, 79, 208, 0.8); 
+                font-weight: 600;
+                box-shadow: 1px 1px 1px rgb(170, 169, 169);
+            }
+        }
+    }
+}
