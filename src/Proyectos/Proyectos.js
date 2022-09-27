@@ -8,7 +8,7 @@ const Proyectos= () =>{
         <div className="proyectos">
             <p>Proyectos</p>
             <span>
-                <div class="ih-item square colored effect6 from_top_and_bottom cardProyect"><a href="https://ecomerce-react-coderhouse-vcp.vercel.app/" target="_blank" rel="noreferrer">
+                <div class="ih-item square colored effect6 from_top_and_bottom cardProyect"><a>
                     <div class="img"><img src="./assets/imagenes/vcp-vistaMiniatura.png" alt="img"/></div>
                     <div class="info">
                         <span className="botoneraProyecto">
@@ -24,7 +24,7 @@ const Proyectos= () =>{
 
 
 
-                <div class="ih-item square colored effect6 from_top_and_bottom cardProyect"><a href="https://ecomerce-react-coderhouse-vcp.vercel.app/" target="_blank" rel="noreferrer">
+                <div class="ih-item square colored effect6 from_top_and_bottom cardProyect"><a>
                     <div class="img"><img src="./assets/imagenes/cem-vistaMiniatura.png" alt="img"/></div>
                     <div class="info">
                         <span className="botoneraProyecto">
@@ -39,7 +39,7 @@ const Proyectos= () =>{
                 </div>
 
 
-                <div class="ih-item square colored effect6 from_top_and_bottom cardProyect"><a href="https://ecomerce-react-coderhouse-vcp.vercel.app/" target="_blank" rel="noreferrer">
+                <div class="ih-item square colored effect6 from_top_and_bottom cardProyect"><a>
                     <div class="img"><img src="./assets/imagenes/fravega-vistaMiniatura.png" alt="img"/></div>
                     <div class="info">
                         <span className="botoneraProyecto">
@@ -54,7 +54,7 @@ const Proyectos= () =>{
                     </a>
                 </div>
 
-                <div class="ih-item square colored effect6 from_top_and_bottom cardProyect"><a href="https://ecomerce-react-coderhouse-vcp.vercel.app/" target="_blank" rel="noreferrer">
+                <div class="ih-item square colored effect6 from_top_and_bottom cardProyect"><a>
                     <div class="img"><img src="./assets/imagenes/hidropedales-vistaMiniatura.png" alt="img"/></div>
                     <div class="info">
                         <span className="botoneraProyecto">
@@ -68,7 +68,7 @@ const Proyectos= () =>{
                     </a>
                 </div>
 
-                <div class="ih-item square colored effect6 from_top_and_bottom cardProyect"><a href="https://ecomerce-react-coderhouse-vcp.vercel.app/" target="_blank" rel="noreferrer">
+                <div class="ih-item square colored effect6 from_top_and_bottom cardProyect"><a>
                     <div class="img"><img src="./assets/imagenes/sup-vistaMiniatura.png" alt="img"/></div>
                     <div class="info">
                         <span className="botoneraProyecto">
