@@ -9,7 +9,7 @@
     padding: 3px;
     border: 1px solid #000c24f7;
     position: sticky;
-    top: 85vh;
+    top: 88vh;
     margin: auto;
     z-index: 100;
     transition: all 0.5s ease-in-out;
@@ -46,6 +46,10 @@
             }
             &:visited, :active, :focus{
                 color: white;
+            }
+            svg{
+                height: 35px;
+                width: 35px;
             }
         }
     }
