@@ -39,9 +39,10 @@ const Contacto =()=>{
         }
     }
     // onSubmit={handleSubmit(onSubmit)}
+    // action="c4da5ffe16f2017c6b7b40a809c770c7" method="POST"
     return (
         <div className="contacto">
-            <form className="formulario" action="c4da5ffe16f2017c6b7b40a809c770c7" method="POST">
+            <form className="formulario" onSubmit={handleSubmit(onSubmit)}>
                     <div className="labelFormContacto">
                         <label>Nombre</label>
                         <input type="text" name="name" {...register("name", { required: true})} />
