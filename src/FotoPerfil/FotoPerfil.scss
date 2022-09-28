@@ -1,17 +1,30 @@
 .fotoContainer{
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin-top: -50px;
-    margin-left: 4px;
+    width: 300px;
+    height: 290px;
+    margin-top: -250px;
+    margin-left: 90px;
     z-index: 10;
     position: absolute;
-    background-color: #01193aeb;
+    
     img{
-        width: 150px;
-        height: 150px;
+        width: 300px;
+        height: 290px;
         object-fit: cover;
         border-radius: 50%;
-        border: black 5px solid;
+      /*  border: black 5px solid;  */
+        animation: fadeInAnimation1  ease 4s;
+        animation-iteration-count: 1;
+        filter: drop-shadow(0 0 2px rgba(0, 94, 255, 0.8));
+    }
+    @keyframes fadeInAnimation1 {
+        0% {
+            opacity: 0;
+            transform: scale(0.7);
+        }
+         100% {
+            opacity: 1;
+            transform: scale(1);
+         }
     }
 }

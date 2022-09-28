@@ -16,7 +16,7 @@ const BodyContainer = ()=>{
         <div className="bodyContainer">
             <FotoPerfil/>
             <span className="dinamicText">
-                <TypingText text={sequence} aling="right" fontSize={2.4}/>
+                <TypingText text={sequence} aling="left" fontSize={2.4}/>
             </span>
             <span className="introduccion">
                 <p>Recientemente elegi para mi vida, el camino del programador, inicie por el Frontend y actualmente 
