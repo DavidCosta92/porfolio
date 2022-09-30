@@ -42,6 +42,7 @@ const Contacto =()=>{
     // action="c4da5ffe16f2017c6b7b40a809c770c7" method="POST"
     return (
         <div className="contacto">
+            <p>Hablamos?</p>
             <form className="formulario" onSubmit={handleSubmit(onSubmit)}>
                     <div className="labelFormContacto">
                         <label>Nombre</label>
