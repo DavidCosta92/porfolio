@@ -16,6 +16,9 @@ const Herramientas = ()=>{
             </span>
             <span className="contenedorAprendiendo">
                 <p className="subtitulo">Aprendiendo</p>
+                <p>Actualmente estudio una Tecnicatura en desarrollo web y aplicaciones digitales
+                    donde estoy descubriendo lenguajes y heramientas como..
+                </p>
                 <span className="toolsContainer">
                     <img src="./assets/icons/python.png" alt="Logo python"/>
                     <img src="./assets/icons/sql.png" alt="Logo sql"/>
