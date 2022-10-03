@@ -1,3 +1,15 @@
 .extras{
     color: white;
+    .titulo{
+        font-size: 1.4rem;
+    }
+    p{
+        color: white;     
+        font-size: 1.1rem;  
+        margin: 20px;
+        span{
+            color:rgba(2, 79, 208, 0.7411764706); 
+            font-weight: 600;
+        }
+    }
 }

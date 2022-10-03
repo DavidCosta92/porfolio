@@ -7,6 +7,7 @@ import Contacto from "../Contacto/Contacto";
 import Extras from "../Extras/Extras";
 
 
+
 const BodyContainer = ()=>{
     let sequence1 = [
         '',

@@ -3,7 +3,7 @@ import "./Proyectos.scss"
 const Proyectos= () =>{
     return (
         <div className="proyectos">
-            <p>Proyectos</p>
+            <p>Ultimos Proyectos</p>
             <span>
                 <div class="ih-item square colored effect6 from_top_and_bottom cardProyect"><a>
                     <div class="img"><img src="./assets/imagenes/vcp-vistaMiniatura.png" alt="img"/></div>
