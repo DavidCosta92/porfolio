@@ -4,6 +4,7 @@
     height: auto;
     .dinamicText div{
         height: 100px;
+        margin-top: 250px;
         margin-left: 15px;
         padding-top: 75px;
         z-index: 10;
@@ -23,13 +24,12 @@
         text-align: center;
         font-size: 1.2rem;
         p{
-            margin-top: 3vh;
             padding:15px;
-            span{
-                line-height: 2rem;
-                color:#024fd0bd;
-                font-weight: 700;
-            }
+
+        }
+        span{
+            color:#024fd0bd;
+            font-weight: 700;
         }
 
     }
