@@ -3,19 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 :root{
     scroll-behavior: smooth;
 }
 body{
-  /*  background-image: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0.738),
-        rgba(0, 0, 0, 0.351)
-    ), url("../public/assets/imagenes/fondo.jpg");
-    background-repeat: repeat;
-    background-size: cover;
-    */
     background-color: black;
     overflow-x: hidden;
 }
@@ -37,3 +28,5 @@ body{
   border-radius: 5px;
   border: 1px solid rgba(3, 93, 249, 0.763);
 }
+
+

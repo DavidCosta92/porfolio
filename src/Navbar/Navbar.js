@@ -13,7 +13,7 @@ const Navbar = ()=>{
             <NavStiky/>
         <div className="navbarContainer">  
             <span className="dinamicText">
-                <TypingText  text={sequence} aling="left" fontSize={2.5}/>
+                <TypingText  text={sequence} aling="left" fontSize={3}/>
             </span>
         </div>
         </>

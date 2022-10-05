@@ -2,9 +2,8 @@
     border-radius: 50%;
     width: 300px;
     height: 290px;
-  /*  margin-top: -250px; */
     margin-top: 20px;
-    margin-left: 130px;
+    margin-left: calc(100vw - 290px);
     z-index: 10;
     position: absolute;
     img{
@@ -13,10 +12,7 @@
         object-fit: cover;
       /*  border: black 5px solid;   */
         animation: fadeInAnimation1  ease 4s;
-        animation-iteration-count: 1;
-        
-
-        
+        animation-iteration-count: 1;        
     }
     @keyframes fadeInAnimation1 {
         0% {
@@ -28,4 +24,28 @@
             transform: scale(1);
          }
     }
+}
+@media (min-width: 650px){
+  .fotoContainer{
+    margin-left: calc(100vw - 350px);
+    img{
+      width: 350px;
+      height: 350px;
+    }
+  }
+}
+@media (min-width: 800px){
+  .fotoContainer{
+    margin-left: calc(100vw - 375px);
+  }
+}
+@media (min-width: 1000px){
+  .fotoContainer{
+    margin-left: calc(100vw - 410px);
+  }
+}
+@media (min-width: 1300px){
+  .fotoContainer{
+    margin-left: calc(100vw - 430px);
+  }
 }
