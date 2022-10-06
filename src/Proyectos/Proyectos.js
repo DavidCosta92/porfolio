@@ -1,8 +1,9 @@
 import "./Proyectos.scss"
 
+
 const Proyectos= () =>{
     return (
-        <div className="proyectos">
+        <div className="proyectos" >
             <p>Ultimos Proyectos</p>
             <span>
                 <div class="ih-item square colored effect6 from_top_and_bottom cardProyect"><a>

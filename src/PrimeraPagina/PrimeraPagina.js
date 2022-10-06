@@ -24,7 +24,7 @@ const PrimeraPagina = ()=>{
     return (
         <div className="primeraPagina">
             <FotoPerfil/>
-            <span className="dinamicText sequence1A">
+            <span className="dinamicText sequence1A" >
                 <TypingText text={sequence1A} aling="left" fontSize={1.8}/>
             </span>
             <span className="dinamicText sequence1B">
@@ -37,7 +37,7 @@ const PrimeraPagina = ()=>{
                 <p>Estoy en busqueda de un proyecto que
                     genere un impacto positivo, necesito de un
                     equipo donde apoyarme, aprender y con el
-                    cual pueda compartir metas.
+                    cual pueda compartir metas. 
                 </p>
                 <span><p>¿Trabajamos juntos?</p></span>
             </span>

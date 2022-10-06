@@ -14,7 +14,7 @@ const BodyContainer = ()=>{
             <PrimeraPagina/>
             <Herramientas/>
             <Proyectos/>
-            <Extras/>
+            {/*<Extras/>*/}
             <Contacto/>
         </div>
     )
