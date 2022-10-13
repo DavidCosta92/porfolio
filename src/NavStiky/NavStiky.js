@@ -12,7 +12,7 @@ const NavStiky = ()=>{
     return (
         <div className="NavStiky">
             <span className="btnThemeUp">
-            <NightlightIcon/>
+            {/*<NightlightIcon/>*/}
             <a className="linkedin" href="#"title="Inicio" > <KeyboardDoubleArrowUpIcon/></a>
             </span>
             <span className="redes">

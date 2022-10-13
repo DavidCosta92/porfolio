@@ -2,11 +2,9 @@ import "./Herramientas.scss"
 
 const Herramientas = ()=>{
     return (
-            <div className="herramientas"  data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500">
-                <p className="titulo"> HERRAMIENTAS </p>
-                <span className="toolsContainer">
+            <div className="herramientas"  >
+                <p className="titulo" data-aos="zoom-out-left"  data-aos-easing="ease-in-sine" data-aos-duration="500" data-aos-anchor-placement="center-center"> HERRAMIENTAS </p>
+                <span className="toolsContainer" data-aos="zoom-out-right" data-aos-easing="ease-in-sine" data-aos-duration="500" data-aos-anchor-placement="center-center">
                     <img src="./assets/icons/html.png" alt="Logo html"/>
                     <img src="./assets/icons/css.png" alt="Logo css"/>
                     <img src="./assets/icons/js.png" alt="Logo js"/>                
@@ -17,9 +15,9 @@ const Herramientas = ()=>{
                     <img src="./assets/icons/bootstrap.png" alt="Logo bootstrap"/>
                 </span>
                 <span className="contenedorAprendiendo">
-                    <p className="subtitulo">Aprendizaje constante</p>
+                    <p className="subtitulo" data-aos="zoom-out-left"  data-aos-easing="ease-in-sine" data-aos-duration="500" data-aos-anchor-placement="center-center">Aprendizaje constante</p>
                     <div className="contenedor">
-                        <div className="contenedorAprendizajes">
+                        <div className="contenedorAprendizajes" data-aos="zoom-out-right" data-aos-easing="ease-in-sine" data-aos-duration="500" data-aos-anchor-placement="center-center">
                             <p>Actualmente estudio una Tecnicatura en desarrollo web y aplicaciones digitales
                                 donde estoy utilizando lenguajes y heramientas muy interesantes
                             </p>
