@@ -12,7 +12,7 @@ const Contacto =()=>{
     const form = useRef();
     const { register, handleSubmit, formState: { errors } }  = useForm();
     const serviceID= "service_ikp6o26";
-    const templateID= "template_ajbzjtp";
+    const templateID= "template_9d1snnb";
     const publicKey= "SY9HJBbS46YCiQfNz";
 
     const onSubmit=()=>{
@@ -32,19 +32,19 @@ const Contacto =()=>{
             <form className="formulario"  ref={form} onSubmit={handleSubmit(onSubmit)}>
                 <div className="labelFormContacto">
                     <label>Nombre</label>
-                    <input type="text" name="name" {...register("name", { required: true})} />
+                    <input type="text" name="name" id="name" {...register("name", { required: true})} />
                     {errors.name && <p className="errorForm">Coloca tu nombre por favor</p>}
                 </div>
 
                 <div className="labelFormContacto">
                     <label >Email</label>
-                    <input type="email" name="email" {...register("email", { required: true, minLength:8 })}/>
+                    <input type="email" name="email" id="email" {...register("email", { required: true, minLength:8 })}/>
                     {errors.email && errors.email.type ==="required" && <p className="errorForm">¡Solo lo usare para responderte!</p>}
                     {errors.email && errors.email.type ==="minLength" && (<p className="errorForm">Al menos necesitamos 5 caracteres..</p>)}
                 </div>
                 <div className="labelFormContacto textArea">
                     <label >¿Sobre que te gustaria que charlemos? </label>
-                    <textarea type="text" name="mensaje" {...register("mensaje", { required: true, minLength:5, maxLength:200 })}></textarea>
+                    <textarea type="text" name="mensaje" id="mensaje" {...register("mensaje", { required: true, minLength:5, maxLength:200 })}></textarea>
                     {errors.mensaje && errors.mensaje.type ==="required" && <p className="errorForm">Por favor cuentame!</p>}
                     {errors.mensaje && errors.mensaje.type ==="minLength" && (<p className="errorForm">Al menos necesitamos 8 caracteres..</p>)}
                     {errors.mensaje && errors.mensaje.type ==="maxLength" && <p className="errorForm">Mensaje demasiado largo, mantente en los 200 caracteres por favor</p>}                     
