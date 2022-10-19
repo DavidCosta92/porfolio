@@ -16,7 +16,7 @@ const Contacto =()=>{
     const publicKey= "SY9HJBbS46YCiQfNz";
 
     const onSubmit=()=>{
-    /*    e.preventDefault();*/
+    /*e.preventDefault();*/
         emailjs.sendForm(serviceID, templateID, form.current, publicKey)
         .then((result) => {
                 console.log(result.text);
