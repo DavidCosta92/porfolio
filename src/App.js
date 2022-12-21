@@ -4,6 +4,7 @@ import BodyContainer from './BodyContainer/BodyContainer';
 import './ihover.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import PaginaRedireccion from './pagDeRedireccionamiento/PaginaRedireccion';
 
 
 
@@ -11,8 +12,10 @@ function App() {
   AOS.init();
   return (
     <div className="App">
-      <Navbar/>
-      <BodyContainer/>
+      <PaginaRedireccion/>
+      
+      {/*<Navbar/>
+      <BodyContainer/> */}
     </div>
   );
 }

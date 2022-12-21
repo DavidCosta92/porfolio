@@ -1,0 +1,64 @@
+.PaginaRedireccion{
+    height: 100vh;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    h1{
+        color: white;
+        font-size: 3rem;
+        font-weight: 600;
+        text-align: center;
+    }
+    h3{
+        color: #024fd0bd;
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+    }
+    h4{
+        color: #4977c7bd;
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+        padding-bottom: 4vh;
+
+    }
+    a{
+        text-decoration: none;
+        cursor: pointer;
+        .enlace{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            border: 1px solid white;
+            border-radius: 30px;
+            padding: 15px;
+            &:hover{
+                background-color: #024ed05c;
+                transform: scale(1.01);
+                h4{
+                    color: white;
+                }
+            }
+            .botonRedireccion{
+                display: flex;
+                justify-content: center;
+                padding-bottom: 15px;
+                img{
+                        width: 40px;
+                        height: 40px;
+            
+                }
+        }
+
+
+
+    }
+
+    }
+    
+
+}

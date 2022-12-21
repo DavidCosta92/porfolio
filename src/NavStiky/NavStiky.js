@@ -19,7 +19,7 @@ const NavStiky = ()=>{
                 <a className="linkedin" href="https://www.linkedin.com/in/david-costa-yafar" target="_blank" rel="noreferrer" title="Visitar LinkedIn"> <LinkedInIcon/> </a>
                 <a className="github" href="https://github.com/DavidCosta92" target="_blank" rel="noreferrer" title="Vamos a los repos"> <GitHubIcon/></a>
                 <a className="mail" href="mailto:davidcst2991@gmail.com" title="¿Quieres enviarme un mail?"> <MailIcon/></a>
-                <a className="cv" href="https://drive.google.com/file/d/10QHBytvPLJ1ajwWVqr-l-eij4tSElyAD/view?usp=sharing" target="_blank" rel="noreferrer" title="Ver Curriculum"><ContactPageIcon/></a>
+                <a className="cv" href="./assets/Cv Costa David IT.pdf" target="_blank" rel="noreferrer" title="Ver Curriculum"><ContactPageIcon/></a>
             </span>
         </div>
     )
